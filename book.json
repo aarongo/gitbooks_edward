@@ -1,0 +1,128 @@
+{
+  "title" : "Gitbook Edward",
+  "author" : "Edward Liu",
+  "description" : "记录工作",
+  "language": "zh-hans",
+  "gitbook": "3.2.2",
+  "links": {
+      "sidebar": {
+        "Edward Home": "https://github.com/aarongo/gitbooks_edward"
+      }
+  },
+  "styles": {
+      "website": "styles/website.css",
+      "ebook": "styles/ebook.css",
+      "pdf": "styles/pdf.css",
+      "mobi": "styles/mobi.css",
+      "epub": "styles/epub.css"
+  },
+  "pdf": {
+      "fontSize": 12,
+      "footerTemplate": null,
+      "headerTemplate": null,
+      "margin": {
+          "bottom": 36,
+          "left": 62,
+          "right": 62,
+          "top": 36
+      },
+      "pageNumbers": false,
+      "paperSize": "a4"
+  },
+  "plugins": [
+    "-sharing",
+    "sharing-plus",
+    "disqus",
+    "-lunr",
+    "-search",
+    "search-plus",
+    "prism",
+    "-highlight",
+    "github",
+    "include-codeblock",
+    "ace",
+    "emphasize",
+    "splitter",
+    "tbfed-pagefooter",
+    "expandable-chapters-small",
+    "sectionx",
+    "simple-page-toc",
+    "anchors",
+    "anchor-navigation-ex",
+    "edit-link",
+    "sitemap-general",
+    "todo",
+    "copy-code-button",
+    "include-csv"
+  ],
+  "pluginsConfig": {
+        "sharing": {
+           "douban": false,
+           "facebook": false,
+           "google": true,
+           "hatenaBookmark": false,
+           "instapaper": false,
+           "line": false,
+           "linkedin": true,
+           "messenger": false,
+           "pocket": false,
+           "qq": false,
+           "qzone": false,
+           "stumbleupon": false,
+           "twitter": false,
+           "viber": false,
+           "vk": false,
+           "weibo": true,
+           "whatsapp": false,
+           "all": [
+               "facebook", "google", "twitter",
+               "weibo", "instapaper", "linkedin",
+               "pocket", "stumbleupon", "qq", "qzone"
+           ]
+       },
+        "disqus": {
+            "shortName": "Edward Issue"
+        },
+        "prism": {
+          "css": [
+            "prismjs/themes/prism-solarizedlight.css"
+          ]
+        },
+        "github": {
+            "url": "https://github.com/aarongo/gitbooks_edward"
+        },
+        "include-codeblock": {
+            "template": "ace",
+            "unindent": true,
+            "theme": "monokai"
+        },
+        "tbfed-pagefooter": {
+          "copyright":"&copy Taobao FED Team",
+          "modify_label": "该文件修订时间：",
+          "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "sectionx": {
+          "tag": "b"
+        },
+        "simple-page-toc": {
+            "maxDepth": 3,
+            "skipFirstH1": true
+        },
+        "anchor-navigation-ex": {
+           "associatedWithSummary":true
+        },
+        "theme-default": {
+            "showLevel": true
+        },
+        "edit-link": {
+                "base": "https://github.com/aarongo/gitbooks_edward/edit/master",
+                "label": {
+                    "en": "Edit This Page",
+                    "de": "Seite bearbeiten"
+                }
+        },
+        "sitemap-general": {
+            "prefix": "https://cyberzhg.gitbooks.io/clrs/content/"
+        }
+    }
+}
